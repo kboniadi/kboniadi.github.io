@@ -8,23 +8,37 @@
   }
 
   .site-main .site-banner .site-title h3 {
-    font-size: 35px;
+    font-size: 25px;
+  }
+
+  .site-main .site-banner .site-title h3::after {
+    width: 55vw;
   }
 
   .site-main .site-banner .site-title h1 {
     font-size: 35px;
   }
-  .site-main .about-image {
-    height: 100%;
-    width: 100%;
-    margin: 0%;
+
+  .site-main .about-area .about-title h2 {
+    font-size: 50px;
+    padding: 0;
   }
-  .site-main .about-title > h2 {
-    font-size: 25px;
-    margin: 0%;
-    padding: 0%;
+
+  .site-main .about-area {
+    padding: 0;
+  }
+
+  .site-main .project-area .grid .our-project > .title h4 {
+    font-size: 18px;
+  }
+
+  footer.footer-area .social a > em {
+    font-size: 22px;
+    padding: 1rem;
   }
 }
+
+
 
 /* if the viewport is equal to 992px or less than that */
 @media only screen and (max-width: 992px) {
@@ -33,7 +47,7 @@
     letter-spacing: 10px;
   }
 
-  .site-main .about-title > h2 {
+  .site-main .about-area .about-title h2 span {
     font-size: 25px;
     margin: 0%;
   }
