@@ -1,309 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>my-portfolio</title>
 
-
     <!--  Bootstrap css file  -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <!--  font awesome icons  -->
-    <link rel="stylesheet" href="./css/all.min.css">
-
+    <link rel="stylesheet" href="./css/all.min.css" />
 
     <!--  Magnific Popup css file  -->
-    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
-
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css" />
 
     <!--  Owl-carousel css file  -->
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
-
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css" />
 
     <!--  custom css file  -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!--  Responsive css file  -->
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
 
-</head>
-
-<body>
-
-
-    <!--  ======================= Start Header Area ============================== -->
-
-    <header class="header_area">
-        <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"><i class="fas fa-laptop-code"></i></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="mr-auto"></div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">about</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">contact</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <!--  ======================= End Header Area ============================== -->
-
+  <body>
     <!--  ======================= Start Main Area ================================ -->
     <main class="site-main">
-
-        <!--  ======================= Start Banner Area =======================  -->
-        <section class="site-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 site-title">
-                        <h3 class="title-text">console.log("Hello")</h3>
-                        <h1 class="title-text text-uppercase">My Name is Kord Boniadi</h1>
-                        <div class="site-buttons">
-                            <div class="d-flex flex-row flex-wrap">
-                                <button type="button" class="btn button primary-button mr-4 text-uppercase" onclick="window.open('./resume/kord-boniadi-resume.pdf','_blank')">Resume</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!--  ======================= Start Header Area ============================== -->
+      <header class="header_area">
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><em class="fas fa-laptop-code"></em></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="me-auto"></div>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#top"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">contact</a>
+                </li>
+              </ul>
             </div>
-        </section>
-        <!--  ======================= End Banner Area =======================  -->
-
-        <!--  ========================= About Area ==========================  -->
-
-        <section id="about" class="about-area">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 profile-image">
-                        <div class="about-image">
-                            <img src="./img/profile-pic.jpeg" alt="About us" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 about-title">
-                        <h2 class="text-uppercase pt-5">
-                            <span>Let me</span>
-                            <span>introduce</span>
-                            <span>myself</span>
-                        </h2>
-                        <div class="paragraph py-4 w-75">
-                            <p class="para">
-                                My name is Kord, and I am a Computer Science student at Saddleback College. It is my love
-                                and passion to create cool new apps and programs for people to use. I'm knowledgable in
-                                the languages of: C++, C, Java, Javascript/Typescript/HTML/CSS, Python, SQL, and x86 Assembly.
-                                I also have experience with techologies: Node.js, Webpack, React, Trello, Git/Github, Yarn,
-                                and PostgreSQL.
-                            <p class="para">
-                                When I'm not doing school work, I'm working on an Ultra Low Latency VDI system that my friend and I
-                                actively develope. On my free time, I love to surf, exercise, and play the piano.
-                            </p>
-                        </div>
-                        <button type="button" class="btn button primary-button text-uppercase" onclick="window.open('./resume/kord-boniadi-resume.pdf','_blank')">Resume</button>
-                    </div>
+          </div>
+        </nav>
+      </header>
+      <!--  ======================= End Header Area ============================== -->
+      <!--  ======================= Start Banner Area =======================  -->
+      <section class="site-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 site-title">
+              <h3 class="title-text">console.log("Hello")</h3>
+              <h1 class="title-text text-uppercase">My Name is Kord Boniadi</h1>
+              <div class="site-buttons">
+                <div class="d-flex flex-row flex-wrap">
+                  <button
+                    type="button"
+                    class="btn button primary-button mr-4 text-uppercase"
+                    onclick="window.open('./resume/kord-boniadi-resume.pdf','_blank')"
+                  >
+                    Resume
+                  </button>
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <!--  ======================= End Banner Area =======================  -->
 
-        <!--  ========================= End About Area ==========================  -->
+      <!--  ========================= About Area ==========================  -->
 
-        <!--  ======================= Project Area =============================  -->
-
-        <section id="portfolio" class="project-area">
-            <div class="container">
-                <div class="project-title pb-5">
-                    <h1 class="text-uppercase title-h1">Active Projects</h1>
-                </div>
-
-                <div class="button-group">
-                    <button type="button" class="active" id="btn1" data-filter="*">All</button>
-                    <button type="button" data-filter=".Clang">C++/C</button>
-                    <button type="button" data-filter=".React">React</button>
-                    <button type="button" data-filter=".Java">Java</button>
-                    <button type="button" data-filter=".HTMLCSS">HTML/CSS</button>
-                </div>
-
-                <div class="row grid">
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item React">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="https://img.indiefolio.com/fit-in/1100x0/filters:format(webp):fill(transparent)/project/body/927433448c189465332723e4ef2b7d75_8a2f1430115537.jpg">
-                                    <img src="https://img.indiefolio.com/fit-in/1100x0/filters:format(webp):fill(transparent)/project/body/927433448c189465332723e4ef2b7d75_8a2f1430115537.jpg" alt="portfolio-1" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Chat App (in React)</h4>
-                                <span class="text-secondary">React, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item React">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="https://www.techgenyz.com/wp-content/uploads/2019/08/web-designing-tips.jpg">
-                                        <img src="https://www.techgenyz.com/wp-content/uploads/2019/08/web-designing-tips.jpg" alt="portfolio-10" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">portfolio (with react)</h4>
-                                    <span class="text-secondary">React, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item Clang">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="https://us.123rf.com/450wm/lonely11/lonely111410/lonely11141000015/33033686-american-football-background-eps-10.jpg?ver=6">
-                                    <img src="https://us.123rf.com/450wm/lonely11/lonely111410/lonely11141000015/33033686-american-football-background-eps-10.jpg?ver=6" alt="portfolio-2" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Lets Play Football</h4>
-                                <span class="text-secondary">C++/C, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item Clang">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="https://static.onecms.io/wp-content/uploads/sites/28/2017/02/copenhagen-budapest-london-barcelona-EUROPLAN0217.jpg">
-                                    <img src="https://static.onecms.io/wp-content/uploads/sites/28/2017/02/copenhagen-budapest-london-barcelona-EUROPLAN0217.jpg" alt="portfolio-3" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">European Vacation</h4>
-                                <span class="text-secondary">C++/C, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item Clang">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="https://lh3.googleusercontent.com/fr1055VOnjikjEaxAk24eRa53AN2vrvapj6B057nZ8U5Y-dC-ndYiA3eNeqho8TvzSAN=w512-h512">
-                                    <img src="https://lh3.googleusercontent.com/fr1055VOnjikjEaxAk24eRa53AN2vrvapj6B057nZ8U5Y-dC-ndYiA3eNeqho8TvzSAN=w512-h512" alt="portfolio-4" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Painter App</h4>
-                                <span class="text-secondary">C++/C, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item HTMLCSS">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="https://images.techhive.com/images/article/2016/03/internet1-100649339-large.jpg">
-                                    <img src="https://images.techhive.com/images/article/2016/03/internet1-100649339-large.jpg" alt="portfolio-5" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Practice Website</h4>
-                                <span class="text-secondary">HTML/CSS, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item Java">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="https://play-lh.googleusercontent.com/7k1wSfnstoNib_lmlfIfFTcHOE4oypb-mmuzvhPLpfFRz55CnNJFagyd6u6G4fFrlDI">
-                                    <img src="https://play-lh.googleusercontent.com/7k1wSfnstoNib_lmlfIfFTcHOE4oypb-mmuzvhPLpfFRz55CnNJFagyd6u6G4fFrlDI" alt="portfolio-6" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">tic-tac-toe</h4>
-                                <span class="text-secondary">Java, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item Java">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="https://www.pinclipart.com/picdir/big/63-634205_events-icon-brain-png-clipart.png">
-                                    <img src="https://www.pinclipart.com/picdir/big/63-634205_events-icon-brain-png-clipart.png" alt="portfolio-7" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Course Scheduler</h4>
-                                <span class="text-secondary">Java, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item Java">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT0O5dlULn6-ugznzbrGbukdUIduYkTAvk5t0lV4kTsMVhhfHaa4IgnP2dh6rc76t19MM&usqp=CAU">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT0O5dlULn6-ugznzbrGbukdUIduYkTAvk5t0lV4kTsMVhhfHaa4IgnP2dh6rc76t19MM&usqp=CAU" alt="portfolio-8" class="img-fluid" width="400" height="400">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Chat App</h4>
-                                <span class="text-secondary">Java, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item Clang">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="https://neave.com/assets/images/home/tic-tac-toe.png">
-                                    <img src="https://neave.com/assets/images/home/tic-tac-toe.png" alt="portfolio-9" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">tic tac toe</h4>
-                                <span class="text-secondary">C++/C, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <section id="about" class="about-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 profile-image">
+              <div class="about-image">
+                <img src="./img/profile-pic.jpeg" alt="About us" class="img-fluid" />
+              </div>
             </div>
-        </section>
+            <div class="col-lg-6 col-md-12 about-title">
+              <h2 class="text-uppercase pt-5">
+                <span>Let me</span>
+                <span>introduce</span>
+                <span>myself</span>
+              </h2>
+              <div class="paragraph py-4 w-75">
+                <p class="para">
+                  My name is Kord, and I am a Computer Science student at Saddleback College. It is
+                  my love and passion to create cool new apps and programs for people to use. I'm
+                  knowledgable in the languages of: C++, C, Java, Javascript/Typescript/HTML/CSS,
+                  Python, SQL, and x86 Assembly. I also have experience with techologies: Node.js,
+                  Webpack, React, Trello, Git/Github, Yarn, and PostgreSQL.
+                </p>
 
-        <!--  ======================= End Project Area =============================  -->
+                <p class="para">
+                  When I'm not doing school work, I'm working on an Ultra Low Latency VDI system
+                  that my friend and I actively develope. On my free time, I love to surf, exercise,
+                  and play the piano.
+                </p>
+              </div>
+              <button
+                type="button"
+                class="btn button primary-button text-uppercase"
+                onclick="window.open('./resume/kord-boniadi-resume.pdf','_blank')"
+              >
+                Resume
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!--  ========================= End About Area ==========================  -->
+
+      <!--  ======================= Project Area =============================  -->
+
+      <section id="portfolio" class="project-area">
+        <div class="container">
+          <div class="project-title pb-5">
+            <h1 class="text-uppercase title-h1">Active Projects</h1>
+          </div>
+
+          <div class="button-group">
+            <button type="button" class="active" id="btn1" data-filter="*">All</button>
+            <button type="button" data-filter=".Clang">C++/C</button>
+            <button type="button" data-filter=".React">React</button>
+            <button type="button" data-filter=".Java">Java</button>
+            <button type="button" data-filter=".HTMLCSS">HTML/CSS</button>
+          </div>
+
+          <div class="row grid">
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item React">
+              <div class="our-project">
+                <div class="img">
+                  <a
+                    class="test-popup-link"
+                    href="https://img.indiefolio.com/fit-in/1100x0/filters:format(webp):fill(transparent)/project/body/927433448c189465332723e4ef2b7d75_8a2f1430115537.jpg"
+                  >
+                    <img
+                      src="https://img.indiefolio.com/fit-in/1100x0/filters:format(webp):fill(transparent)/project/body/927433448c189465332723e4ef2b7d75_8a2f1430115537.jpg"
+                      alt="portfolio-1"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Chat App (in React)</h4>
+                  <span class="text-secondary">React, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item React">
+              <div class="our-project">
+                <div class="img">
+                  <a
+                    class="test-popup-link"
+                    href="https://www.techgenyz.com/wp-content/uploads/2019/08/web-designing-tips.jpg"
+                  >
+                    <img
+                      src="https://www.techgenyz.com/wp-content/uploads/2019/08/web-designing-tips.jpg"
+                      alt="portfolio-10"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">portfolio (in React)</h4>
+                  <span class="text-secondary">React, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item Clang">
+              <div class="our-project">
+                <div class="img">
+                  <a
+                    class="test-popup-link"
+                    href="https://us.123rf.com/450wm/lonely11/lonely111410/lonely11141000015/33033686-american-football-background-eps-10.jpg?ver=6"
+                  >
+                    <img
+                      src="https://us.123rf.com/450wm/lonely11/lonely111410/lonely11141000015/33033686-american-football-background-eps-10.jpg?ver=6"
+                      alt="portfolio-2"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Lets Play Football</h4>
+                  <span class="text-secondary">C++/C, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item Clang">
+              <div class="our-project">
+                <div class="img">
+                  <a
+                    class="test-popup-link"
+                    href="https://static.onecms.io/wp-content/uploads/sites/28/2017/02/copenhagen-budapest-london-barcelona-EUROPLAN0217.jpg"
+                  >
+                    <img
+                      src="https://static.onecms.io/wp-content/uploads/sites/28/2017/02/copenhagen-budapest-london-barcelona-EUROPLAN0217.jpg"
+                      alt="portfolio-3"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">European Vacation</h4>
+                  <span class="text-secondary">C++/C, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item Clang">
+              <div class="our-project">
+                <div class="img">
+                  <a
+                    class="test-popup-link"
+                    href="https://lh3.googleusercontent.com/fr1055VOnjikjEaxAk24eRa53AN2vrvapj6B057nZ8U5Y-dC-ndYiA3eNeqho8TvzSAN=w512-h512"
+                  >
+                    <img
+                      src="https://lh3.googleusercontent.com/fr1055VOnjikjEaxAk24eRa53AN2vrvapj6B057nZ8U5Y-dC-ndYiA3eNeqho8TvzSAN=w512-h512"
+                      alt="portfolio-4"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Painter App</h4>
+                  <span class="text-secondary">C++/C, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item HTMLCSS">
+              <div class="our-project">
+                <div class="img">
+                  <a
+                    class="test-popup-link"
+                    href="https://images.techhive.com/images/article/2016/03/internet1-100649339-large.jpg"
+                  >
+                    <img
+                      src="https://images.techhive.com/images/article/2016/03/internet1-100649339-large.jpg"
+                      alt="portfolio-5"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Practice Website</h4>
+                  <span class="text-secondary">HTML/CSS, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item Java">
+              <div class="our-project">
+                <div class="img">
+                  <a
+                    class="test-popup-link"
+                    href="https://play-lh.googleusercontent.com/7k1wSfnstoNib_lmlfIfFTcHOE4oypb-mmuzvhPLpfFRz55CnNJFagyd6u6G4fFrlDI"
+                  >
+                    <img
+                      src="https://play-lh.googleusercontent.com/7k1wSfnstoNib_lmlfIfFTcHOE4oypb-mmuzvhPLpfFRz55CnNJFagyd6u6G4fFrlDI"
+                      alt="portfolio-6"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">tic-tac-toe</h4>
+                  <span class="text-secondary">Java, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item Java">
+              <div class="our-project">
+                <div class="img">
+                  <a
+                    class="test-popup-link"
+                    href="https://www.pinclipart.com/picdir/big/63-634205_events-icon-brain-png-clipart.png"
+                  >
+                    <img
+                      src="https://www.pinclipart.com/picdir/big/63-634205_events-icon-brain-png-clipart.png"
+                      alt="portfolio-7"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Course Scheduler</h4>
+                  <span class="text-secondary">Java, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item Java">
+              <div class="our-project">
+                <div class="img">
+                  <a
+                    class="test-popup-link"
+                    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT0O5dlULn6-ugznzbrGbukdUIduYkTAvk5t0lV4kTsMVhhfHaa4IgnP2dh6rc76t19MM&usqp=CAU"
+                  >
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT0O5dlULn6-ugznzbrGbukdUIduYkTAvk5t0lV4kTsMVhhfHaa4IgnP2dh6rc76t19MM&usqp=CAU"
+                      alt="portfolio-8"
+                      class="img-fluid"
+                      width="400"
+                      height="400"
+                    />
+                  </a>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Chat App</h4>
+                  <span class="text-secondary">Java, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item Clang">
+              <div class="our-project">
+                <div class="img">
+                  <a
+                    class="test-popup-link"
+                    href="https://neave.com/assets/images/home/tic-tac-toe.png"
+                  >
+                    <img
+                      src="https://neave.com/assets/images/home/tic-tac-toe.png"
+                      alt="portfolio-9"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">tic tac toe</h4>
+                  <span class="text-secondary">C++/C, Portfolio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  ======================= End Project Area =============================  -->
     </main>
     <!--  ======================= End Main Area ================================ -->
 
     <footer id="contact" class="footer-area">
-        <div class="container">
-            <div class="">
-                <div class="site-logo text-center py-4">
-                    <a href="#top"><i class="fas fa-laptop-code"></i></a>
-                </div>
-                <div class="social text-center">
-                    <h5 class="text-uppercase">Check me out on</h5>
-                    <a href="https://www.facebook.com/kord.boniadi/" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.linkedin.com/in/kord-boniadi-85bb04207/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/kboniadi" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="">
+          <div class="site-logo text-center py-4">
+            <a href="#top"><i class="fas fa-laptop-code"></i></a>
+          </div>
+          <div class="social text-center">
+            <h5 class="text-uppercase">Check me out on</h5>
+            <a href="https://www.facebook.com/kord.boniadi/" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/kord-boniadi-85bb04207/" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/kboniadi" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
         </div>
+      </div>
     </footer>
 
-
     <!--  Jquery js file  -->
-    <script src="./js/jquery.3.4.1.js"></script>
+    <script src="./js/jquery.3.6.1.js"></script>
 
     <!--  Bootstrap js file  -->
-    <script src="./js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
 
     <!--  isotope js library  -->
     <script src="./vendor/isotope/isotope.min.js"></script>
@@ -316,8 +409,5 @@
 
     <!--  custom js file  -->
     <script src="./js/main.js"></script>
-
-
-</body>
-
+  </body>
 </html>
