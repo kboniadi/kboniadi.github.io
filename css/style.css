@@ -44,12 +44,12 @@
   color: white;
 }
 
-.site-main .site-banner .site-title h3 {
+.site-main .site-banner .site-title p {
   padding-top: 35%;
   font-weight: 500;
 }
 
-.site-main .site-banner .site-title h3::after {
+.site-main .site-banner .site-title p::after {
   content: " ";
   height: 2px;
   width: 18vw;
