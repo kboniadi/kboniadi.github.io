@@ -22,5 +22,5 @@ html, body{
     --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 
     /* font family variables. */ 
-    --roboto: 'open-sans', 'montserrat', serif;
+    --active-font: 'open-sans', 'montserrat', serif;
 } 

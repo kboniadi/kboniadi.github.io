@@ -10,7 +10,7 @@
 }
 
 .header_area .nav-item .nav-link {
-  font: normal 500 15px/2px var(--roboto);
+  font: normal 500 15px/2px var(--active-font);
   text-transform: uppercase;
   padding: 1.7rem;
   color: var(--title-color);
@@ -81,7 +81,7 @@
 }
 .site-main .about-area .about-title h1 > span {
   display: block;
-  font: normal bold 49px/ 60px var(--roboto);
+  font: normal bold 49px/ 60px var(--active-font);
   letter-spacing: 21px;
 }
 
@@ -100,7 +100,7 @@
 .site-main .project-area .button-group button {
   background: transparent;
   border: none;
-  font: normal 500 16px/130px var(--roboto);
+  font: normal 500 16px/130px var(--active-font);
   text-transform: uppercase;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .site-main .project-area .grid .our-project > .title h4 {
-  font: normal 700 25px/12px var(--roboto);
+  font: normal 700 25px/12px var(--active-font);
 }
 
 .site-main .project-area .grid .our-project .img a:hover img {
@@ -139,7 +139,7 @@
 }
 
 .site-main .about-area .client .about-client h4 {
-  font: normal 500 21px/ 20px var(--roboto);
+  font: normal 500 21px/ 20px var(--active-font);
 }
 
 .site-main .about-area .client .about-client p {
@@ -167,7 +167,7 @@ footer.footer-area {
 }
 
 footer.footer-area .social h5 {
-  font: normal 500 23px/ 30px var(--roboto);
+  font: normal 500 23px/ 30px var(--active-font);
 }
 
 footer.footer-area .social a > em {
