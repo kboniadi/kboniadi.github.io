@@ -79,7 +79,7 @@
   width: 50%;
   margin-left: 30vh;
 }
-.site-main .about-area .about-title h2 > span {
+.site-main .about-area .about-title h1 > span {
   display: block;
   font: normal bold 49px/ 60px var(--roboto);
   letter-spacing: 21px;
