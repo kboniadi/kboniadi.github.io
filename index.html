@@ -1,400 +1,988 @@
 <!DOCTYPE html>
-<html lang="en">
-  <!--
-  WRITTEN BY: Kord Boniadi
-  EMAIL: kboniadi@uci.edu
-  -->
+<html class="no-js" lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <script type="text/javascript" src="js/bundle-playback.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/wombat.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="css/banner-styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/iconochive.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.JPG" />
+
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Kord Boniadi</title>
     <meta name="author" content="Kord Boniadi" />
     <meta name="description" content="Kords Portfolio website" />
-
-    <!--  Bootstrap css file  -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
-    <!--  font awesome icons  -->
-    <link rel="stylesheet" href="./css/all.min.css" />
-
-    <!--  Magnific Popup css file  -->
-    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css" />
-
-    <!--  Owl-carousel css file  -->
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css" />
-
-    <!--  custom css file  -->
-    <link rel="stylesheet" href="./css/style.css" />
-
-    <!--  Responsive css file  -->
-    <link rel="stylesheet" href="./css/responsive.css" />
-    <title>Kord Boniadi's Portfolio</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&amp;family=Montserrat:wght@400;500;600;700&amp;family=Noto+Sans:wght@400;700&amp;family=Source+Sans+Pro:wght@400;600;700&amp;display=swap"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="css/text-headline.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/custom.css" />
   </head>
-
   <body>
-    <!--  ======================= Start Main Area ================================ -->
-    <main class="site-main">
-      <!--  ======================= Start Header Area ============================== -->
-      <header class="header_area">
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#top" title="logo"
-              ><em class="fas fa-laptop-code"></em
-            ></a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <div class="me-auto"></div>
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#top"
-                    >Home <span class="sr-only">(current)</span></a
+    <div class="page-loader">
+      <div class="loader">Loading...</div>
+    </div>
+    <header id="sticky-header" class="header-area header-transparent pt-10 pb-10">
+      <div class="header-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="main-menu">
+                <nav class="navbar navbar-expand-lg">
+                  <a class="navbar-brand" href="#top">
+                    <h3>
+                      <i class="fas fa-laptop-code"></i>
+                    </h3>
+                  </a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
                   >
+                    <span class="navbar-icon"></span>
+                    <span class="navbar-icon"></span>
+                    <span class="navbar-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#tools">Tools</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="home" class="slider-area hero cover background-image" data-overlay="2">
+      <div class="home-arrow">
+        <a href="#about" class="smoth-scroll">
+          <i class="fa fa-angle-double-down"></i>
+        </a>
+      </div>
+      <div class="single-slider slider-height d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-8">
+              <div class="silder-content slider-text">
+                <h1 class="white-color" data-animation="fadeInDown" data-delay=".3s">
+                  Kord
+                  <br />
+
+                  Boniadi
+                </h1>
+                <h4
+                  class="white-color cd-headline clip is-full-width"
+                  data-animation="fadeInDown"
+                  data-delay=".6s"
+                >
+                  <span class="cd-words-wrapper typing">
+                    <b class="is-visible">Full-Stack Developer</b>
+                    <b>Software Engineer</b>
+                    <b>Coder</b>
+                    <b>Bug Squasher</b>
+                  </span>
+                </h4>
+                <a href="resume/kord-boniadi-resume.pdf" target="_blank" class="btn smoth-scroll"
+                  >RESUME</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="features-area pt-100 pb-90">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-5 col-lg-5">
+            <div class="about-me mb-30">
+              <img src="img/profile-pic.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-7 col-lg-7">
+            <div class="about-me-info mb-30 pl-30">
+              <h2>
+                Hello! I'm Kord Boniadi,
+                <br />
+
+                Software Engineer
+                <br />
+
+                From Orange County, CA.
+              </h2>
+              <p>
+                I am a Computer Science student at University of California Irvine. It is my love
+                and passion to create cool new apps and programs for people to use. I'm knowledgable
+                in the languages of: C++, C, C#, Go, Java, Python, Javascript/Typescript, HTML/CSS,
+                SQL, and x86 Assembly. I also have experience with these techologies: Git/Github,
+                React.js, Protobuf/gRPC, Blazor, Kubernetes, Docker, RabbitMQ, PostgreSQL.
+              </p>
+              <p>
+                Feel free to connect with me! Let's talk about algorithms, tech, sports, video
+                games, or how I can be of help to your team or business! I'd love to get to know
+                more developers and expand my network.
+              </p>
+              <h6>Let’s build something cool.</h6>
+              <div class="info-me mb-30">
+                <h6>
+                  <span>Mail</span>
+                  :
+
+                  <a href="mailto:kordboniadi@gmail.com">kordboniadi@gmail.com</a>
+                </h6>
+                <h6>
+                  <span>Phone</span>
+                  :
+
+                  <a href="tel:+1-949-485-0398">(949) 485-0398</a>
+                </h6>
+                <h6>
+                  <span>LinkedIn</span>
+                  :
+
+                  <a href="https://www.linkedin.com/in/kord-boniadi-85bb04207/" target="_blank"
+                    >https://www.linkedin.com/in/kord-boniadi-85bb04207/</a
+                  >
+                </h6>
+                <h6>
+                  <span>GitHub</span>
+                  :
+
+                  <a href="https://github.com/kboniadi" target="_blank"
+                    >https://github.com/kboniadi</a
+                  >
+                </h6>
+              </div>
+              <a href="resume/kord-boniadi-resume.pdf" target="_blank" class="btn smoth-scroll"
+                >RESUME</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="projects" class="portfolio-area pt-100 pb-90">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3">
+            <div class="area-title text-center mb-40">
+              <h2>Projects</h2>
+              <p>Here are some applications that I have developed</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="portfolio-menu mb-40 text-center">
+              <button class="active" data-filter="*">ALL</button>
+              <button data-filter=".jscript">Javascript</button>
+              <button data-filter=".clang">C/C++</button>
+              <button data-filter=".java">Java</button>
+              <button data-filter=".python">Python</button>
+            </div>
+          </div>
+        </div>
+        <div class="row grid">
+          <div class="col-xl-4 col-lg-4 col-md-6 grid-item clang">
+            <div class="portfolio-wrapper mb-30 wow fadeIn" data-wow-delay=".3s">
+              <div class="portfolio-thumb">
+                <img
+                  src="https://lh3.googleusercontent.com/fr1055VOnjikjEaxAk24eRa53AN2vrvapj6B057nZ8U5Y-dC-ndYiA3eNeqho8TvzSAN=w512-h512"
+                  alt="painter app"
+                />
+              </div>
+              <div class="portfolio-content">
+                <h3>
+                  <a href="#" data-toggle="modal" data-target="#popup-modal1">Painter App</a>
+                </h3>
+                <span>A cross platform version of Microsoft Paint written using Qt.</span>
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              id="popup-modal1"
+              tabindex="-1"
+              role="dialog"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="view-project">
+                    <div class="view-project-content pt-10">
+                      <div class="modal-title">
+                        <h2>Painter App</h2>
+                      </div>
+                      <p>A cross platform version of Microsoft Paint written using Qt.</p>
+                      <ul class="project-info-list">
+                        <li class="text-uppercase">
+                          <span>Technologies</span>
+
+                          Qt | C++ | QSS
+                        </li>
+                        <li class="text-uppercase">
+                          <span>Collaborators</span>
+
+                          N/A
+                        </li>
+                        <li class="text-uppercase">
+                          <span>GitHub</span>
+                          <a href="https://github.com/kboniadi/Paint_App" target="_blank"
+                            >https://github.com/kboniadi/Paint_App</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 grid-item java">
+            <div class="portfolio-wrapper mb-30 wow fadeIn" data-wow-delay=".3s">
+              <div class="portfolio-thumb">
+                <img
+                  src="https://play-lh.googleusercontent.com/7k1wSfnstoNib_lmlfIfFTcHOE4oypb-mmuzvhPLpfFRz55CnNJFagyd6u6G4fFrlDI"
+                  alt="tic tac toe app"
+                />
+              </div>
+              <div class="portfolio-content">
+                <h3>
+                  <a href="#" data-toggle="modal" data-target="#popup-modal2"
+                    >Multiplayer Tic Tac Toe</a
+                  >
+                </h3>
+                <span
+                  >A modular multiplayer tic tac toe game with a lobby system, and a full featured
+                  leaderboard.</span
+                >
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              id="popup-modal2"
+              tabindex="-1"
+              role="dialog"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="view-project">
+                    <div class="view-project-content pt-10">
+                      <div class="modal-title">
+                        <h2>Multiplayer Tic Tac Toe</h2>
+                      </div>
+                      <p>
+                        A modular multiplayer tic tac toe game with a lobby system, and a full
+                        featured leaderboard. The core architecture of the system relies on
+                        microservice to facilitate a modular design. Some modules in the system are:
+                        Game Engine, Recorder, and Server. Each module also relies on a messaging
+                        queue for communication.
+                      </p>
+                      <ul class="project-info-list">
+                        <li class="text-uppercase">
+                          <span>Technologies</span>
+
+                          Java | JavaFX | PostgreSQL | AWS | Messaging Queue | Multi-threaded
+                          programming
+                        </li>
+                        <li class="text-uppercase">
+                          <span>Collaborators</span>
+
+                          N/A
+                        </li>
+                        <li class="text-uppercase">
+                          <span>GitHub</span>
+                          <div class="d-flex flex-column">
+                            <a href="https://github.com/kboniadi/Tic_Tac_Toe" target="_blank"
+                              >Client App</a
+                            >
+                            <a href="https://github.com/kboniadi/MessagingAPI" target="_blank"
+                              >Messaging Queue</a
+                            >
+                            <a href="https://github.com/kboniadi/Messaging-Server" target="_blank"
+                              >Core Server</a
+                            >
+                            <a
+                              href="https://github.com/kboniadi/tic-tac-toe-services"
+                              target="_blank"
+                              >Services</a
+                            >
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 grid-item python">
+            <div class="portfolio-wrapper mb-30 wow fadeIn" data-wow-delay=".5s">
+              <div class="portfolio-thumb">
+                <img
+                  src="https://lh3.googleusercontent.com/tzprdl_yJ8BQOJg-RxNrp7DbrHSnND6cI1ZmhNJvA8pd3WUVjz1EqfnaA9c1-4aB6Ad5r8Hd53JuffwtHix4Y0LLDcYDK6wdQGqoL9zhu4X7tQYbHRJd-LHkdFYzyyjCY8wU1ylU=w2400"
+                  alt="web crawler"
+                />
+              </div>
+              <div class="portfolio-content">
+                <h3>
+                  <a href="#" data-toggle="modal" data-target="#popup-modal3">Web Crawler</a>
+                </h3>
+                <span
+                  >A simple web crawler that incorporates many principles for search engine design.
+                </span>
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              id="popup-modal3"
+              tabindex="-1"
+              role="dialog"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="view-project">
+                    <div class="view-project-content pt-10">
+                      <div class="modal-title">
+                        <h2>Web Crawler</h2>
+                      </div>
+                      <p>
+                        A simple web crawler that incorporates many principles for search engine
+                        design.
+                      </p>
+                      <ul class="project-info-list">
+                        <li class="text-uppercase">
+                          <span>Technologies</span>
+
+                          Python
+                        </li>
+                        <li class="text-uppercase">
+                          <span>GitHub</span>
+                          <a href="https://github.com/kboniadi/spacetime-crawler4py" target="_blank"
+                            >https://github.com/kboniadi/spacetime-crawler4py</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 grid-item jscript">
+            <div class="portfolio-wrapper mb-30 wow fadeIn" data-wow-delay=".7s">
+              <div class="portfolio-thumb">
+                <img
+                  src="https://lh3.googleusercontent.com/F96T6CS8YHHdXI4UP8qJZPl7iBjs4NgnKIDxDG2CywTuR9QOztMqsdZfPjKB20nR3vFFU-Fmq821dcg29lQdTLC-dmOn-s-HxFWW5UpMphRZlX9JtWDSICPQa-iQE6icOS0amlEU=w2400"
+                  alt="spotofy logo"
+                />
+              </div>
+              <div class="portfolio-content">
+                <h3>
+                  <a href="#" data-toggle="modal" data-target="#popup-modal4">Spotify Browser</a>
+                </h3>
+                <span
+                  >A web application where users can see their spotify account and search for new
+                  albums, artists, and songs.</span
+                >
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              id="popup-modal4"
+              tabindex="-1"
+              role="dialog"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="view-project">
+                    <div class="view-project-content pt-10">
+                      <div class="modal-title">
+                        <h2>Spotify Browser</h2>
+                      </div>
+                      <p>
+                        Spotify Browser is a single-page web application that utilizes the public
+                        Spotify API to get realtime account info and music.
+                      </p>
+                      <ul class="project-info-list">
+                        <li class="text-uppercase">
+                          <span>Technologies</span>
+
+                          JavaScript | jQuery | Angular | Express | HTML 5 | CSS 3 | Bootstrap 4
+                        </li>
+                        <li class="text-uppercase">
+                          <span>GitHub</span>
+                          <a
+                            href="https://github.com/kboniadi/spotify-browser-angular"
+                            target="_blank"
+                            >https://github.com/kboniadi/spotify-browser-angular</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 grid-item java">
+            <div class="portfolio-wrapper mb-30 wow fadeIn" data-wow-delay=".7s">
+              <div class="portfolio-thumb">
+                <img
+                  src="https://www.pinclipart.com/picdir/big/63-634205_events-icon-brain-png-clipart.png"
+                  alt="course scheduler app"
+                />
+              </div>
+              <div class="portfolio-content">
+                <h3>
+                  <a href="#" data-toggle="modal" data-target="#popup-modal5">Course Scheduler</a>
+                </h3>
+                <span
+                  >A desktop application that queries my schools class lists and generates a
+                  schedule for me based on certain constraints.
+                </span>
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              id="popup-modal5"
+              tabindex="-1"
+              role="dialog"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="view-project">
+                    <div class="view-project-content pt-10">
+                      <div class="modal-title">
+                        <h2>Course Scheduler</h2>
+                      </div>
+                      <p>
+                        A desktop application that queries my schools class lists and generates a
+                        schedule for me based on certain constraints.
+                      </p>
+                      <ul class="project-info-list">
+                        <li class="text-uppercase">
+                          <span>Technologies</span>
+
+                          Java | JavaFX
+                        </li>
+                        <li class="text-uppercase">
+                          <span>GitHub</span>
+                          <a href="https://github.com/kboniadi/CourseScheduler" target="_blank"
+                            >https://github.com/kboniadi/CourseScheduler</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 grid-item python">
+            <div class="portfolio-wrapper mb-30 wow fadeIn" data-wow-delay=".7s">
+              <div class="portfolio-thumb">
+                <img
+                  src="https://lh3.googleusercontent.com/Soja2nnF7aNYoS1_Sp6LkGa9nEybnNnIC7SSoaZTsFxSEhmMAUX-Pq8A14n8TypR4ZLsxJWVqXp7iypUP7lpYKNytt7y5sbjNgF3-X01ZMONj8XLDj7G74HffbpOo_7LF3VY26iZ=w2400"
+                  alt="API"
+                />
+              </div>
+              <div class="portfolio-content">
+                <h3>
+                  <a href="#" data-toggle="modal" data-target="#popup-modal6">Serverless API</a>
+                </h3>
+                <span
+                  >This is a python based API written using the fastAPI framework and hosted using
+                  AWS lambda and dynamoDB.
+                </span>
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              id="popup-modal6"
+              tabindex="-1"
+              role="dialog"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="view-project">
+                    <div class="view-project-content pt-10">
+                      <div class="modal-title">
+                        <h2>Serverless API</h2>
+                      </div>
+                      <p>
+                        This is a python based API written using the fastAPI framework and hosted
+                        using AWS lambda and dynamoDB.
+                      </p>
+                      <ul class="project-info-list">
+                        <li class="text-uppercase">
+                          <span>Technologies</span>
+
+                          Python | fastAPI | AWS | AWS LAMBDA | DynamoDB
+                        </li>
+                        <li class="text-uppercase">
+                          <span>GitHub</span>
+                          <a
+                            href="https://github.com/kboniadi/AWS-lambda-dynamodb-API"
+                            target="_blank"
+                            >https://github.com/kboniadi/AWS-lambda-dynamodb-API</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="skills" class="basic-service-area pt-100 pb-90">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3">
+            <div class="area-title text-center mb-40">
+              <h2>Skills</h2>
+              <p>Languages and Technologies that I have learned and applied in my projects</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn sass" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>C++</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn redux" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>C</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn bootstrap" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Java</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn sass" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>C#</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn nextjs" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Python</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn javascript" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>JavaScript (ES5/ES6)</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn express" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Go</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn css" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Swift</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn graphql" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>MongoDB</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn postgresql" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>PostgreSQL</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn react" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>React.js</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn html" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Angular</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn node" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Node.js</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="tools" class="basic-service-area pt-100 pb-90">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3">
+            <div class="area-title text-center mb-40">
+              <h2>Tools</h2>
+              <p>My weapons of choice to help tackle any project.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn git" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Git</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn github" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>GitHub</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn docker" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Docker</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn apollo" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Kubernetes</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn amazon" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Amazon Web Services</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn prisma" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Linux</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn npm" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>npm</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn yarn" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>yarn</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn vscode" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Visual Studio Code</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn slack" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Slack</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn trello" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Trello</h5>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3 skills-card">
+            <div class="skill-details wow fadeIn trello" data-wow-delay=".3s">
+              <object
+                type="image/svg+xml"
+                data="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+                class="devicon-svg"
+              ></object>
+              <h5>Jira</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="contact-form-area pt-115 pb-90">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-7 col-lg-7">
+            <div class="area-title mb-40">
+              <h2 class="mb-15">Leave a Message!</h2>
+            </div>
+            <div class="contact-form mb-50 wow fadeInLeft" data-wow-delay=".3s">
+              <form id="contact-form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input name="name" id="contact-name" type="text" placeholder="Your Name :" />
+                  </div>
+                  <div class="col-md-6">
+                    <input name="email" id="contact-email" type="email" placeholder="Email :" />
+                  </div>
+                  <div class="col-md-12">
+                    <input name="subject" id="contact-subject" placeholder="Subject :" />
+                  </div>
+                  <div class="col-md-12">
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="10"
+                      placeholder="Your message :"
+                    ></textarea>
+                    <button class="btn" type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+              <p class="ajax-response"></p>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-5">
+            <div class="area-title mb-40">
+              <h2 class="mb-15">Contact Info</h2>
+              <p>
+                Feel free to contact me for career prospects, business services, and other
+                professional inquiries!
+              </p>
+            </div>
+            <div class="contact-info mb-50 wow fadeInRight" data-wow-delay=".3s">
+              <ul>
+                <li>
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h5>Location</h5>
+                    <span>Orange County, CA</span>
+                  </div>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">about</a>
+                <li>
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h5>Call Me At</h5>
+                    <span>
+                      <a href="tel:+1-949-485-0398">(949) 485-0398</a>
+                    </span>
+                  </div>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">contact</a>
+                <li>
+                  <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h5>Email Me At</h5>
+                    <span>
+                      <a href="mailTo:kordboniadi@gmail.com">kordboniadi@gmail.com</a>
+                    </span>
+                  </div>
                 </li>
               </ul>
             </div>
           </div>
-        </nav>
-      </header>
-      <!--  ======================= End Header Area ============================== -->
-      <!--  ======================= Start Banner Area =======================  -->
-      <section id="top" class="site-banner">
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-area black-bg pt-90 pb-90">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-md-12 site-title">
-              <p class="title-text">console.log("Hello")</p>
-              <div class="title-text text-uppercase">My Name is Kord Boniadi</div>
-              <div class="site-buttons">
-                <div class="d-flex flex-row flex-wrap">
-                  <button
-                    type="button"
-                    class="btn button primary-button mr-4 text-uppercase"
-                    onclick="window.open('./resume/kord-boniadi-resume.pdf','_blank')"
-                  >
-                    Resume
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--  ======================= End Banner Area =======================  -->
-
-      <!--  ========================= About Area ==========================  -->
-
-      <section id="about" class="about-area">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-6 col-md-12 profile-image">
-              <div class="about-image">
-                <img src="./img/profile-pic.jpeg" alt="Kord Boniadi profile" class="img-fluid" />
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12 about-title">
-              <div class="text-uppercase title-h1 pt-5">
-                <span>Let me</span>
-                <span>introduce</span>
-                <span>myself</span>
-              </div>
-              <div class="paragraph py-4 w-75">
-                <p class="para">
-                  My name is Kord, and I am a Computer Science student at University of California Irvine. It is
-                  my love and passion to create cool new apps and programs for people to use. I'm
-                  knowledgable in the languages of: C++, C, C#, Go, Java, Python, Javascript/Typescript, HTML/CSS,
-                  SQL, and x86 Assembly. I also have experience with these techologies: Git/Github, React.js,
-                  Protobuf/gRPC, Blazor, Kubernetes, Docker, RabbitMQ, PostgreSQL.
-                </p>
-
-                <p class="para">
-                  When I'm not doing school work, I'm working on an Ultra Low Latency VDI system
-                  that my friend and I actively develope. On my free time, I love to surf, exercise,
-                  play video games, and play the piano.
-                </p>
-              </div>
-              <button
-                type="button"
-                class="btn button primary-button text-uppercase"
-                onclick="window.open('./resume/kord-boniadi-resume.pdf','_blank')"
-              >
-                Resume
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--  ========================= End About Area ==========================  -->
-
-      <!--  ======================= Project Area =============================  -->
-
-      <section id="portfolio" class="project-area">
-        <div class="container">
-          <div class="text-uppercase title-h1 pb-5">Active Projects</div>
-
-          <div class="button-group">
-            <button type="button" class="active" id="btn1" data-filter="*">All</button>
-            <button type="button" data-filter=".Clang">C++/C</button>
-            <button type="button" data-filter=".React">React</button>
-            <button type="button" data-filter=".Java">Java</button>
-            <button type="button" data-filter=".HTMLCSS">HTML/CSS</button>
-          </div>
-
-          <div class="row grid">
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item React">
-              <div class="our-project">
-                <div class="img">
-                  <a
-                    class="test-popup-link"
-                    href="https://github.com/kboniadi/react-native-chat-app"
-                  >
-                    <img
-                      src="https://img.indiefolio.com/fit-in/1100x0/filters:format(webp):fill(transparent)/project/body/927433448c189465332723e4ef2b7d75_8a2f1430115537.jpg"
-                      alt="chat app"
-                      class="img-fluid"
-                    />
+            <div class="col-xl-12">
+              <div class="footer-text text-center wow fadeInUp" data-wow-delay=".3s">
+                <div class="footer-icon mb-20">
+                  <a href="https://www.linkedin.com/in/kord-boniadi-85bb04207/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://github.com/kboniadi" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="resume/kord-boniadi-resume.pdf" target="_blank">
+                    <i class="far fa-file"></i>
                   </a>
                 </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Chat App (in React)</h4>
-                  <span class="text-secondary">React, Portfolio</span>
-                </div>
+                <p>Copyright - 2022 Kord Boniadi, All Right Reserved</p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item React">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="https://github.com/kboniadi/my-portfolio">
-                    <img
-                      src="https://www.techgenyz.com/wp-content/uploads/2019/08/web-designing-tips.jpg"
-                      alt="portfolio app"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">portfolio (in React)</h4>
-                  <span class="text-secondary">React, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item Clang">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="https://github.com/kboniadi/Lets_Play_Football">
-                    <img
-                      src="https://us.123rf.com/450wm/lonely11/lonely111410/lonely11141000015/33033686-american-football-background-eps-10.jpg?ver=6"
-                      alt="lets play football app"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Lets Play Football</h4>
-                  <span class="text-secondary">C++/C, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item Clang">
-              <div class="our-project">
-                <div class="img">
-                  <a
-                    class="test-popup-link"
-                    href="https://github.com/kboniadi/European-Vacation-App"
-                  >
-                    <img
-                      src="https://static.onecms.io/wp-content/uploads/sites/28/2017/02/copenhagen-budapest-london-barcelona-EUROPLAN0217.jpg"
-                      alt="european vacation"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">European Vacation</h4>
-                  <span class="text-secondary">C++/C, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item Clang">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="https://github.com/kboniadi/Paint_App">
-                    <img
-                      src="https://lh3.googleusercontent.com/fr1055VOnjikjEaxAk24eRa53AN2vrvapj6B057nZ8U5Y-dC-ndYiA3eNeqho8TvzSAN=w512-h512"
-                      alt="painter app"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Painter App</h4>
-                  <span class="text-secondary">C++/C, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item HTMLCSS">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="https://github.com/kboniadi/practice-website">
-                    <img
-                      src="https://images.techhive.com/images/article/2016/03/internet1-100649339-large.jpg"
-                      alt="practice website"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Practice Website</h4>
-                  <span class="text-secondary">HTML/CSS, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item Java">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="https://github.com/kboniadi/Tic_Tac_Toe">
-                    <img
-                      src="https://play-lh.googleusercontent.com/7k1wSfnstoNib_lmlfIfFTcHOE4oypb-mmuzvhPLpfFRz55CnNJFagyd6u6G4fFrlDI"
-                      alt="tic tac toe app"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">tic-tac-toe</h4>
-                  <span class="text-secondary">Java, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item Java">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="https://github.com/kboniadi/CourseScheduler">
-                    <img
-                      src="https://www.pinclipart.com/picdir/big/63-634205_events-icon-brain-png-clipart.png"
-                      alt="course scheduler app"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Course Scheduler</h4>
-                  <span class="text-secondary">Java, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item Java">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="https://github.com/kboniadi/chat-client">
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT0O5dlULn6-ugznzbrGbukdUIduYkTAvk5t0lV4kTsMVhhfHaa4IgnP2dh6rc76t19MM&usqp=CAU"
-                      alt="chat app"
-                      class="img-fluid"
-                      width="400"
-                      height="400"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Chat App</h4>
-                  <span class="text-secondary">Java, Portfolio</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item Clang">
-              <div class="our-project">
-                <div class="img">
-                  <a class="test-popup-link" href="https://github.com/kboniadi/tic_tac_toe_game">
-                    <img
-                      src="https://neave.com/assets/images/home/tic-tac-toe.png"
-                      alt="tic tac toe app"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-                <div class="title py-4">
-                  <h4 class="text-uppercase">tic tac toe</h4>
-                  <span class="text-secondary">C++/C, Portfolio</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--  ======================= End Project Area =============================  -->
-    </main>
-    <!--  ======================= End Main Area ================================ -->
-
-    <footer id="contact" class="footer-area">
-      <div class="container">
-        <div class="">
-          <div class="site-logo text-center py-4">
-            <a href="#top" title="logo" target="_self"><em class="fas fa-laptop-code"></em></a>
-          </div>
-          <div class="social text-center">
-            <h5 class="text-uppercase">Check me out on</h5>
-            <a href="https://www.facebook.com/kord.boniadi/" target="_blank" title="facebook link"
-              ><em class="fab fa-facebook"></em
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/kord-boniadi-85bb04207/"
-              target="_blank"
-              title="linkedin link"
-              ><em class="fab fa-linkedin"></em
-            ></a>
-            <a href="https://github.com/kboniadi" target="_blank" title="github link"
-              ><em class="fab fa-github"></em
-            ></a>
           </div>
         </div>
       </div>
     </footer>
 
-    <!--  Jquery js file  -->
-    <script src="./js/jquery.3.6.1.js"></script>
-
-    <!--  Bootstrap js file  -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
-
-    <!--  isotope js library  -->
-    <script src="./vendor/isotope/isotope.min.js"></script>
-
-    <!--  Magnific popup script file  -->
-    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
-
-    <!--  Owl-carousel js file  -->
-    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
-
-    <!--  custom js file  -->
-    <script src="./js/main.js"></script>
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/one-page-nav-min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ "></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
