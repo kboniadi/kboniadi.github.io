@@ -369,7 +369,8 @@
                   <a href="#" data-toggle="modal" data-target="#popup-modal3">Web Crawler</a>
                 </h3>
                 <span
-                  >A simple web crawler that incorporates many principles for search engine design.
+                  >A Web crawler that incorporates many principles used in text acquisition phase of
+                  search engine design.
                 </span>
               </div>
             </div>
@@ -388,8 +389,12 @@
                         <h2>Web Crawler</h2>
                       </div>
                       <p>
-                        A simple web crawler that incorporates many principles for search engine
-                        design.
+                        A Web crawler that incorporates many principles used in text acquisition
+                        phase of search engine design. See the
+                        <a style="color: rgb(26, 98, 202);" href="https://github.com/kboniadi/search-engine" target="_blank"
+                          >Search Engine</a
+                        >
+                        repo for a continuation into full search engine design.
                       </p>
                       <ul class="project-info-list">
                         <li class="text-uppercase">
@@ -424,7 +429,8 @@
                 </h3>
                 <span
                   >A web application where users can see their spotify account and search for new
-                  albums, artists, and songs.</span
+                  albums, artists, and songs. Audio playback is also possible using gestures via
+                  your webcam.</span
                 >
               </div>
             </div>
@@ -444,13 +450,15 @@
                       </div>
                       <p>
                         Spotify Browser is a single-page web application that utilizes the public
-                        Spotify API to get realtime account info and music.
+                        Spotify API to get realtime account info, music info. It also supports audio
+                        playback with gesture controls via your webcam.
                       </p>
                       <ul class="project-info-list">
                         <li class="text-uppercase">
                           <span>Technologies</span>
 
-                          JavaScript | jQuery | Angular | Express | HTML 5 | CSS 3 | Bootstrap 4
+                          JavaScript | jQuery | Angular | Express | Handtrack.js | HTML 5 | CSS 3 |
+                          Bootstrap 4
                         </li>
                         <li class="text-uppercase">
                           <span>GitHub</span>
@@ -535,8 +543,8 @@
                   <a href="#" data-toggle="modal" data-target="#popup-modal6">Serverless API</a>
                 </h3>
                 <span
-                  >This is a python based API written using the fastAPI framework and hosted using
-                  AWS lambda and dynamoDB.
+                  >This is a python based API and Web application written using the Flask framework
+                  and hosted using AWS lambda.
                 </span>
               </div>
             </div>
@@ -555,21 +563,82 @@
                         <h2>Serverless API</h2>
                       </div>
                       <p>
-                        This is a python based API written using the fastAPI framework and hosted
-                        using AWS lambda and dynamoDB.
+                        This is a python based API written using the Flask framework and hosted
+                        using AWS lambda. The database used for textual information storage is AWS
+                        DynamoDB with AWS S3 use for file storage. Redis was used for performance
+                        optimizations at the data retrieval level of the API. It supports
+                        authentication using Flask Login and jwt tokens.
                       </p>
                       <ul class="project-info-list">
                         <li class="text-uppercase">
                           <span>Technologies</span>
 
-                          Python | fastAPI | AWS | AWS LAMBDA | DynamoDB
+                          Python | Flask | AWS (LAMBDA, DynamoDB, S3) | Redis | JWT
+                        </li>
+                        <li class="text-uppercase">
+                          <span>GitHub</span>
+                          <a href="https://github.com/kboniadi/AWS-lambda-dynamodb-API" target="_blank"
+                            >https://github.com/kboniadi/AWS-lambda-dynamodb-API</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 grid-item python">
+            <div class="portfolio-wrapper mb-30 wow fadeIn" data-wow-delay=".7s">
+              <div class="portfolio-thumb">
+                <img
+                  src="https://lh3.googleusercontent.com/nzeIiTd4Jre77YsKkNCyl-FOXsZ6wnZjpXjnLDH5I_AXev8P_rRgJdrQ9wc-9PEQg_qz20kK86y8AWliTubDRWK5ohHYQgOp6v8uspsz86fivOjMRVZBe8AaJ8mCF0ju6eizte1G=w2400"
+                  alt="Search Engine"
+                />
+              </div>
+              <div class="portfolio-content">
+                <h3>
+                  <a href="#" data-toggle="modal" data-target="#popup-modal6">Search Engine</a>
+                </h3>
+                <span
+                  >This is a python based Search Engine which is capable of handling tens or
+                  thousands of Web pages in addition to having a query responsen time of under
+                  300ms.
+                </span>
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              id="popup-modal6"
+              tabindex="-1"
+              role="dialog"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="view-project">
+                    <div class="view-project-content pt-10">
+                      <div class="modal-title">
+                        <h2>Search Engine</h2>
+                      </div>
+                      <p>
+                        This is a python based Search Engine which is capable of handling tens or
+                        thousands of Web pages in addition to having a query responsen time of under
+                        300ms. This engine includes an inverted index, tf-idf and cosine similarity
+                        based query ranking, MapReduce paradigm and distributed query evaluation.
+                      </p>
+                      <ul class="project-info-list">
+                        <li class="text-uppercase">
+                          <span>Technologies</span>
+
+                          Python | Flask | Hardoop MapReduce
                         </li>
                         <li class="text-uppercase">
                           <span>GitHub</span>
                           <a
-                            href="https://github.com/kboniadi/AWS-lambda-dynamodb-API"
+                            href="https://github.com/kboniadi/search-engine"
                             target="_blank"
-                            >https://github.com/kboniadi/AWS-lambda-dynamodb-API</a
+                            >https://github.com/kboniadi/search-engine</a
                           >
                         </li>
                       </ul>
